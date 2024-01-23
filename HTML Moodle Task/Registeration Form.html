@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend id="fd">
+                <h3>Registration form</h3>
+            </legend>
+
+            <div>
+
+
+                <tr align="center">
+
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="username">User Name:</label>
+                    <input type="text" id="username" name="username"><br><br>
+                    <label for="password">Password:</label>
+                    <input type="text" id="password" name="password"><br><br>
+                    <label for="confirmpassword">Confirm<br>Password:</label>
+                    <input type="text" id="confirmpassword" name="confirmpassword"><br><br>
+                    <label for="mail">E-Mail:</label>
+                    <input type="text" id="mail" name="mail"><br><br>
+                    <label for="mobile.no">Mobile:</label>
+                    <input type="int" id="mobile.no" name="mobile.no"><br><br>
+
+                    <label for="Gender" id="Gender">Gender :</label><br><br>
+                    <input type="radio" name="Gender" placeholder="Male" value="Male" />
+                    <label for="Gender">Male</label><br>
+                    <input type="radio" name="Gender" placeholder="Female"> <label for="Gender">Female</label><br>
+                    <input type="radio" name="Gender" placeholder="Others"> <label for="Gender">Others</label><br>
+            </div>
+
+
+
+
+
+
+            <div>
+                <label for="">DOB :</label>
+                <input type="date" id="date" name="date"><br><br>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="">Course :</label>
+                <select>
+                    <option>Select Course</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label for="">Nationality: </label>
+
+                <input type="checkbox">
+                <label for="">Indian</label>
+                <input type="checkbox">
+                <label for="">Others</label>
+            </div>
+            <br>
+            <div>
+                <label for="">Profile :
+                    <img src="../assert/man-in-suit-and-tie.png" width="50px" height="50px" />
+                </label>
+            </div><br>
+            <div>
+                <input type="file">
+            </div>
+            <br>
+            <br>
+            <input type="button" value="Submit" id="button">
+            <input type="button" value="Reset" id="button">
+        </fieldset>
+    </form>
+</body>
+
+</html>
